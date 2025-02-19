@@ -1,0 +1,23 @@
+black
+flake8
+isort
+loguru
+mkdocs
+pip
+python-dotenv
+tqdm
+typer
+-e .
+
+# Data Science
+ipykernel
+pandas
+polars
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Polars Dependencies
+pyarrow
+fastexcel
