@@ -17,7 +17,9 @@ classifiers = [
 ]
 requires-python = "~=3.10"
 dependencies = [
-    "fastexcel>=0.12.1",
+    "ipywidgets>=8.1.5",
+    "setuptools>=75.8.0",
+    "ydata-profiling>=4.12.2",
 ]
 
 [tool.black]
@@ -40,6 +42,7 @@ machine-learning = { workspace = true }
 [dependency-groups]
 dev = [
     "black>=25.1.0",
+    "fastexcel>=0.12.1",
     "flake8>=7.1.2",
     "ipykernel>=6.29.5",
     "isort>=6.0.0",
@@ -47,7 +50,7 @@ dev = [
     "machine-learning",
     "matplotlib>=3.10.0",
     "mkdocs>=1.6.1",
-    "numpy>=2.2.3",
+    "numpy>=2.1.3",
     "pandas>=2.2.3",
     "pip>=25.0.1",
     "polars>=1.22.0",
